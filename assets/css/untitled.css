@@ -1,0 +1,100 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous + Pro);
+
+img,
+svg {
+}
+
+img,
+svg {
+  margin-top: 40px;
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+}
+
+.portfolio-item {
+  width: 100%;
+  overflow: hidden;
+}
+/* 
+.mb-1 {
+  border-right: 3 px solid rgba(255, 255, 255, 1);
+  font-size: 100%;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter1 3 s steps(40) 1 s 1 normal both,
+    blinkTextCursor1 500 ms steps(16) infinite normal;
+} */
+
+.android_jetpack {
+  transition: all 0.2s ease-in-out;
+}
+.android_jetpack:hover {
+  transform: scale(1.1);
+}
+
+.mb-512 {
+  border-right: 3px solid rgb(0, 0, 0);
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 30px;
+  font-family: "Anonymous Pro", monospace;
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(16) infinite normal;
+}
+
+@keyframes typewriter1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 9em;
+  }
+}
+
+@keyframes blinkTextCursor1 {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 7em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(0, 0, 0, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+#sidebar-nav li,
+#sidebar-wrapper {
+  background: #ffffff;
+}
+
+#sidebar-nav a {
+  color: #000000;
+  padding-left: 30px;
+}
+
+.social-link {
+  transition: all 0.2 s ease - in - out;
+}
+.social-link:hover {
+  transform: scale(1.1);
+}
